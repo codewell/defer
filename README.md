@@ -13,7 +13,7 @@ import defer from '@codewell/defer';
 
 const waitWithLog = defer(console.log, "Hello, World!");
 
-waitWithLog()
+waitWithLog();
 // => "Hello, World!"
 ```
 
