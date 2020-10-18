@@ -1,4 +1,4 @@
-const defer = require("../lib/dev");
+const defer = require("../lib");
 
 const foo = (a, b, c) => a + b + c;
 
