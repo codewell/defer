@@ -9,12 +9,12 @@ npm install @codewell/defer
 ## Basic Usage
 
 ```JavaScript
-import /* FIXME: <nameOfModule> */ from '@codewell/defer';
-//FIXME: Write examples here
+import defer from '@codewell/defer';
+
+const waitWithLog = defer(console.log, "Hello, World!");
+
+waitWithLog()
+// => "Hello, World!"
 ```
 
-## Contribution
-
-Please help by submitting issues and pull requests here on github
-Read more on [codewell's webpage](https://codewell.github.io/contribution)
 
